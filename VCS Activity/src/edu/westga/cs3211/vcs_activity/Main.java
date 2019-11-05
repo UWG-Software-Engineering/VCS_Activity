@@ -6,7 +6,7 @@ import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 import edu.westga.cs3211.vcs_activity.model.Student;
 
 /** 
- * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley
+ * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley, Jake Pefinis, Josh Pefinis
 
  * @version Fall 2019
  */
@@ -33,8 +33,12 @@ public class Main {
 		Ice_Cream iceCream2 = new Ice_Cream("Chocolate", true);
 		System.out.println("The stuff is not equal " + iceCream2.equals(iceCream));
 		
-		//Jake Pefinis, Josh Pefinis start
+		//Jake Pefinis start
 		Book book = new Book("Title", 100);
+		
+		//Josh Pefinis start
+		Book book2 = new Book("Other Title", 100);
+		System.out.println("These books are not equal" + book.equals(book2));
 	
 	}
 

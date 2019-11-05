@@ -1,7 +1,11 @@
 package edu.westga.cs3211.vcs_activity.model;
 /**
  * 
+<<<<<<< HEAD
  * @author Justin Cintron, Josh Pefinis
+=======
+ * @author Justin Cintron, Jake Pefinis
+>>>>>>> branch 'master' of https://github.com/UWG-Software-Engineering/VCS_Activity.git
  *
  */
 public class Book {
