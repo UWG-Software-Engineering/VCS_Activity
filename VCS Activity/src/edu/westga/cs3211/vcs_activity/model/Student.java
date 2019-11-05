@@ -32,6 +32,16 @@ public class Student {
 		this.name = name;
 		this.grade = grade;
 	}
+	
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof Student) {
+			Student other = (Student) o;
+			return this.name.equals(other.getName()) && this.grade == other.getGrade();
+		}
+		
+		return super.equals(o);
+	}
 
 	/**
 	 * Returns the name.

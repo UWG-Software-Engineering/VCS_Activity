@@ -16,23 +16,23 @@ public class TestEquals {
 
 	@Test
 	public void testSameComparison() {
-		Student testStudent = new Student();
-		Student otherTestStudent = new Student();
+		Student testStudent = new Student("Luke", 90);
+		Student otherTestStudent = new Student("Luke", 90);
 		
 		assertEquals(true, testStudent.equals(otherTestStudent));
 	}
 	
 	@Test
 	public void testFailingSameComparison() {
-		Student testStudent = new Student();
-		Student otherTestStudent = new Student();
+		Student testStudent = new Student("Luke", 90);
+		Student otherTestStudent = new Student("Ross", 90);
 		
 		assertEquals(false, testStudent.equals(otherTestStudent));
 	}
 
 	@Test
 	public void testFailingDifferentComparison() {
-		Student testStudent = new Student();
+		Student testStudent = new Student("Luke", 90);
 		
 		assertEquals(false, testStudent.equals(null));
 	}
