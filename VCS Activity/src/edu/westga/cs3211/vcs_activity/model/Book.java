@@ -36,6 +36,19 @@ public class Book {
 		this.pageCount = pageCount;
 	}
 	
+	public boolean equals(Book other) {
+		boolean isEqual = true;
+		
+		if (!this.title.equals(other.title)) {
+			isEqual = false;
+		}
+		if (this.pageCount != other.pageCount) {
+			isEqual = false;
+		}
+		
+		return isEqual;
+	}
+	
 	public int getPageCount() {
 		return pageCount;
 	}
@@ -43,9 +56,10 @@ public class Book {
 	public String getTitle() {
 		return title;
 	}
+	
 	public String toString(int pageCount) {
 		String pageFormated = "Page : " + pageCount;
 		return pageFormated;
-}
+	}
 }
 
