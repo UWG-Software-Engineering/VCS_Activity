@@ -1,10 +1,7 @@
 package nicJeremyMike;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 class MammothConstructorTest {
 
@@ -15,12 +12,12 @@ class MammothConstructorTest {
 	
 	@Test
 	void testTooManyTusks() {
-		Assertions.assertThrows(IllegalArgumentException.class, () -> (new Mammoth(5,true)));
+		Assertions.assertThrows(IllegalArgumentException.class, ()->{new Mammoth(102,true);});
 	}
 	
 	@Test
 	void testTooFewTusks() {
-		Assertions.assertDoesNotThrow(() -> (new Mammoth(5,true)));
+		Assertions.assertThrows(IllegalArgumentException.class,() -> {new Mammoth(-3,true);});
 	}
 
 }
