@@ -2,6 +2,7 @@ package edu.westga.cs3211.vcs_activity;
 
 
 import edu.westga.cs3211.vcs_activity.model.Book;
+import edu.westga.cs3211.vcs_activity.model.Donut;
 import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 import edu.westga.cs3211.vcs_activity.model.Student;
 
@@ -39,6 +40,14 @@ public class Main {
 		//Josh Pefinis start
 		Book book2 = new Book("Other Title", 100);
 		System.out.println("These books are not equal" + book.equals(book2));
+		
+		/**
+		 * Andrew Stoddard Start
+		 */
+		Donut donut = new Donut(20, true);
+		/**
+		 * Andrew Stoddard End
+		 */
 	
 	}
 
