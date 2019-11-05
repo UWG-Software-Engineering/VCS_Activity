@@ -1,5 +1,8 @@
 package edu.westga.cs3211.vcs_activity.model;
 
+/**
+ * @author Thomas Morgenstern
+ */
 public class Car {
 
 	private int speed;
