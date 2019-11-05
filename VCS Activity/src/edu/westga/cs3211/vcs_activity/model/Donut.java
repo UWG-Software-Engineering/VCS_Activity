@@ -37,14 +37,7 @@ public class Donut {
 	public int getCalories() {
 		return calories;
 	}
-	/**
-	 * sets the calories
-	 * 
-	 * @param calories
-	 */
-	public void setCalories(int calories) {
-		this.calories = calories;
-	}
+
 	/**
 	 * gets sprinkles
 	 * @return true if there are sprinkles | false if no sprinkles :(
@@ -52,13 +45,7 @@ public class Donut {
 	public boolean isSprinkles() {
 		return sprinkles;
 	}
-	/**
-	 * sets sprinkles
-	 * @param sprinkles
-	 */
-	public void setSprinkles(boolean sprinkles) {
-		this.sprinkles = sprinkles;
-	}
+
 	
 	/**
 	 * Compares two donuts, returns True if they are equivalent.
