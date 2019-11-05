@@ -11,7 +11,6 @@ public class Main {
 	 * 
 	 * @param args command line arguments (we won't need this!)
 	 */
-	
 	public static void main(String[] args) {
 		System.out.println("Jonathan Corley added this!");
 	}
