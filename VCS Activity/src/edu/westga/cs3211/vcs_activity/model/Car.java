@@ -1,7 +1,9 @@
 package edu.westga.cs3211.vcs_activity.model;
 
 /**
- * @author Thomas Morgenstern
+ * A car
+ * 
+ * @author John Chittam, Michael Pavich, Thomas Morgenstern
  */
 public class Car {
 
@@ -38,5 +40,10 @@ public class Car {
 	
 	public String getColor() {
 		return this.color;
+	}
+	
+	@Override
+	public String toString() {
+		return "A " + this.color + " car that goes " + this.speed + " mph."; 
 	}
 }
