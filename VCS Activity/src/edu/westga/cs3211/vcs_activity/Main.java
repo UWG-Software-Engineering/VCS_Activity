@@ -2,7 +2,7 @@ package edu.westga.cs3211.vcs_activity;
 
 /** Contains the entry point for the program.
  * 
- * @author Jonathan Corley
+ * @author Jonathan Corley, and others
  * @version Fall 2019
  */
 public class Main {
