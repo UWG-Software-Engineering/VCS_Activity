@@ -1,10 +1,11 @@
 package edu.westga.cs3211.vcs_activity;
 
+
 import edu.westga.cs3211.vcs_activity.model.Student;
 
 /** 
  * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley
- * 
+
  * @version Fall 2019
  */
 public class Main {
@@ -22,6 +23,8 @@ public class Main {
 		// Thomas Whaley start
 		Student otherStudent = new Student("Ant-Man", 98);
 		System.out.println("The two students are equal: " + student.equals(otherStudent));
+
 	}
+
 
 }
