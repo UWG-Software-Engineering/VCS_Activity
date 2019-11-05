@@ -18,6 +18,10 @@ public class Main {
 		
 		// Andrew Steinborn start
 		Student student = new Student("Ant-Man", 98);
+		
+		// Thomas Whaley start
+		Student otherStudent = new Student("Ant-Man", 98);
+		System.out.println("The two students are equal: " + student.equals(otherStudent));
 	}
 
 }
