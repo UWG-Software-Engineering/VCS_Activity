@@ -11,17 +11,20 @@ public class Donut {
 	
 	/**
 	 * creates a Donut Object
-	 * 
+	 * @preconditions calories > 0 |
 	 * @param calories , calories of donut
 	 * @param sprinkles , if donut has sprinkles
 	 * 
 	 */
+	
+	
 	public Donut(int calories, boolean sprinkles) {
+		if(calories < 0) {
+			throw new IllegalArgumentException("Can't be less than 0");
+		}
 		this.calories = calories;
 		this.sprinkles = sprinkles;
 	}
-	
-	
 	
 	
 	/**
@@ -54,4 +57,16 @@ public class Donut {
 		this.sprinkles = sprinkles;
 	}
 	
+	/**
+	 * Compares two donuts, returns True if they are equivalent.
+	 * 
+	 * @param otherDonut
+	 * @return
+	 */
+	public boolean equals(Donut otherDonut) {
+		if (otherDonut == null) {
+			throw new IllegalArgumentException("otherDonut cannot be null");
+		}
+		return this.calories == otherDonut.getCalories() && this.sprinkles == otherDonut.sprinkles;
+	}
 }

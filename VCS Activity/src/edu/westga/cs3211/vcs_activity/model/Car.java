@@ -1,10 +1,12 @@
 package edu.westga.cs3211.vcs_activity.model;
 
 /**
+ * A car
  * 
- * @author Michael Pavich
+ * @author John Chittam, Michael Pavich
  *
  */
+
 public class Car {
 
 	private int speed;
@@ -40,5 +42,10 @@ public class Car {
 	
 	public String getColor() {
 		return this.color;
+	}
+	
+	@Override
+	public String toString() {
+		return "A " + this.color + " car that goes " + this.speed + " mph."; 
 	}
 }
