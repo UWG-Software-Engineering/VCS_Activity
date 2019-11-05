@@ -4,5 +4,14 @@ public class Book {
 
 	int pageCount;
 	String title;
+	
+	
+	public int getPageCount() {
+		return pageCount;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
 }
 
