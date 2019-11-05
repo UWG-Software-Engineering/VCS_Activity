@@ -2,7 +2,7 @@ package edu.westga.cs3211.vcs_activity.model;
 
 /**
  * Student data class.
- * @author Andrew Steinborn
+ * @author Andrew Steinborn, Timothy Brooks
  *
  */
 public class Student {
@@ -57,5 +57,10 @@ public class Student {
 	 */
 	public int getGrade() {
 		return grade;
+	}
+	
+	@Override
+	public String toString() {
+		return "Student:" + this.name + " grade:" + this.grade;
 	}
 }
