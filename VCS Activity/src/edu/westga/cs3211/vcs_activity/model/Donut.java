@@ -9,6 +9,17 @@ public class Donut {
 	private boolean sprinkles;
 	
 	
+	/**
+	 * creates a Donut Object
+	 * 
+	 * @param calories , calories of donut
+	 * @param sprinkles , if donut has sprinkles
+	 * 
+	 */
+	public Donut(int calories, boolean sprinkles) {
+		this.calories = calories;
+		this.sprinkles = sprinkles;
+	}
 	
 	
 	
