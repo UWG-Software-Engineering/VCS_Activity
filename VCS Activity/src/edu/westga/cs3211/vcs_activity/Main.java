@@ -6,7 +6,7 @@ import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 import edu.westga.cs3211.vcs_activity.model.Student;
 
 /** 
- * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley
+ * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley, Jake Pefinis
 
  * @version Fall 2019
  */
