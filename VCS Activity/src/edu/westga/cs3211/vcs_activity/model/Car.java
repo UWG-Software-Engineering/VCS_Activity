@@ -3,10 +3,8 @@ package edu.westga.cs3211.vcs_activity.model;
 /**
  * A car
  * 
- * @author John Chittam, Michael Pavich
- *
+ * @author John Chittam, Michael Pavich, Thomas Morgenstern
  */
-
 public class Car {
 
 	private int speed;
