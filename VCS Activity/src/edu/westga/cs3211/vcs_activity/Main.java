@@ -33,7 +33,7 @@ public class Main {
 		Ice_Cream iceCream2 = new Ice_Cream("Chocolate", true);
 		System.out.println("The stuff is not equal " + iceCream2.equals(iceCream));
 		
-		//Jake Pefinis start
+		//Jake Pefinis, Josh Pefinis start
 		Book book = new Book("Title", 100);
 	
 	}

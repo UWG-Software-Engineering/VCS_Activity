@@ -1,7 +1,7 @@
 package edu.westga.cs3211.vcs_activity.model;
 /**
  * 
- * @author Justin Cintron
+ * @author Justin Cintron, Josh Pefinis
  *
  */
 public class Book {
