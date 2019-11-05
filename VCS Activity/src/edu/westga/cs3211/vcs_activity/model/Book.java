@@ -24,6 +24,10 @@ public class Book {
 			throw new IllegalArgumentException("Title cannot be empty");
 		}
 		
+		if (title == null) {
+			throw new IllegalArgumentException("Title cannot be null");
+		}
+		
 		if (pageCount <= 0) {
 			throw new IllegalArgumentException("pageCount must be greater than 0");
 		}
