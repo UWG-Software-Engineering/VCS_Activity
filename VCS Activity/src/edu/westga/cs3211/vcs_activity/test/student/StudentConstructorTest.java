@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import edu.westga.cs3211.vcs_activity.model.Student;
 
+/**
+ * 
+ * @author Andrew Steinborn
+ *
+ */
 class StudentConstructorTest {
 
 	@Test
