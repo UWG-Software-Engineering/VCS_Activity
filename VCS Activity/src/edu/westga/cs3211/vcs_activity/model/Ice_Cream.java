@@ -6,6 +6,10 @@ public class Ice_Cream {
 	public boolean hasNuts;
 	
 	public Ice_Cream(String flavor, boolean hasNuts) {
+		
+		if(flavor == null) {
+			throw new IllegalArgumentException("Flavor can't be null");
+		}
 
 		this.flavor = flavor;
 		this.hasNuts = hasNuts;
