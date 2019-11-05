@@ -1,7 +1,9 @@
 package edu.westga.cs3211.vcs_activity.model;
 /**
  * 
- * @author Andrew Stoddard, Kenneth Wilson, Aaron Merrell
+ * @author Member 1: Andrew Stoddard, 
+ *		   Member 2: Kenneth Wilson, 
+ *		   Member 3: Aaron Merrell
  *
  */
 public class Donut {
@@ -11,7 +13,8 @@ public class Donut {
 	
 	/**
 	 * creates a Donut Object
-	 * @preconditions calories > 0 |
+	 * @preconditions calories > 0 
+	 * @postconditions getCalorie
 	 * @param calories , calories of donut
 	 * @param sprinkles , if donut has sprinkles
 	 * 

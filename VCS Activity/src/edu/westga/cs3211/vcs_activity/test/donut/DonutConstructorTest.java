@@ -11,7 +11,6 @@ class DonutConstructorTest {
 
 	@Test
 	void testSuccessfulConstructor() {
-		Donut donut = new Donut(0, true);
 	}
 	
 	@Test
@@ -20,16 +19,11 @@ class DonutConstructorTest {
 	}
 	
 	@Test
-	void testNameNull() {
-		assertThrows(IllegalArgumentException.class, () -> new Student(null, 90));
+	void testSprinklesTrue() {
 	}
 	@Test
-	void testNameNull() {
-		assertThrows(IllegalArgumentException.class, () -> new Student(null, 90));
+	void testSprinklesFalse() {
 	}
-	@Test
-	void testNameNull() {
-		assertThrows(IllegalArgumentException.class, () -> new Student(null, 90));
-	}
+	
 
 }
