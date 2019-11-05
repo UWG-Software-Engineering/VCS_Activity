@@ -1,5 +1,7 @@
 package edu.westga.cs3211.vcs_activity;
 
+import edu.westga.cs3211.vcs_activity.model.Student;
+
 /** Contains the entry point for the program.
  * 
  * @author Jonathan Corley, Andrew Stoddard
@@ -13,6 +15,9 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Jonathan Corley added this!");
+		
+		// Andrew Steinborn start
+		Student student = new Student("Ant-Man", 98);
 	}
 
 }
