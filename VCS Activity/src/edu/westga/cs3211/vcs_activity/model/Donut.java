@@ -63,9 +63,9 @@ public class Donut {
 	@Override
 	public String toString() {
 		if (this.sprinkles) {
-			return "Donut has sprinkles and is " + this.calories + "claories";
+			return "Donut has sprinkles and is " + this.calories + " claories";
 		} else {
-			return "Donut has no sprinkles and is " + this.calories + "claories";
+			return "Donut has no sprinkles and is " + this.calories + " claories";
 		}
 	}
 }
