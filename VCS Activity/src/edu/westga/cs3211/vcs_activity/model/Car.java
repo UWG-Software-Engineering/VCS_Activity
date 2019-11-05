@@ -1,5 +1,10 @@
 package edu.westga.cs3211.vcs_activity.model;
 
+/**
+ * 
+ * @author Michael Pavich
+ *
+ */
 public class Car {
 
 	private int speed;
