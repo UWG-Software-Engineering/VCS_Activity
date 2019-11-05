@@ -57,4 +57,16 @@ public class Donut {
 		this.sprinkles = sprinkles;
 	}
 	
+	/**
+	 * Compares two donuts, returns True if they are equivalent.
+	 * 
+	 * @param otherDonut
+	 * @return
+	 */
+	public boolean equals(Donut otherDonut) {
+		if (otherDonut == null) {
+			throw new IllegalArgumentException("otherDonut cannot be null");
+		}
+		return this.calories == otherDonut.getCalories() && this.sprinkles == otherDonut.sprinkles;
+	}
 }
