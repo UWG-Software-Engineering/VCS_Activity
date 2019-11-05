@@ -1,6 +1,7 @@
 package edu.westga.cs3211.vcs_activity;
 
 
+import edu.westga.cs3211.vcs_activity.model.Book;
 import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 import edu.westga.cs3211.vcs_activity.model.Student;
 
@@ -31,6 +32,9 @@ public class Main {
 		Ice_Cream iceCream = new Ice_Cream("Chocolate", true);
 		Ice_Cream iceCream2 = new Ice_Cream("Chocolate", true);
 		System.out.println("The stuff is not equal " + iceCream2.equals(iceCream));
+		
+		//Jake Pefinis start
+		Book book = new Book("Title", 100);
 	
 	}
 
