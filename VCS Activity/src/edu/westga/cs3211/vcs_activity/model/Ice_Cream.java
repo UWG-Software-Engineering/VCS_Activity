@@ -19,9 +19,13 @@ public class Ice_Cream {
 		return hasNuts;
 	}
 	
-	
-	
-	
-	
-	
+	public String toString() {
+		String ice_cream = this.flavor + " ice cream ";
+		
+		if (hasNuts) {
+			ice_cream += "with nuts!";
+		}
+		
+		return ice_cream;
+	}
 }
