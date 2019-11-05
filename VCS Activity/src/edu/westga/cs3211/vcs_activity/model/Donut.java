@@ -11,17 +11,20 @@ public class Donut {
 	
 	/**
 	 * creates a Donut Object
-	 * 
+	 * @preconditions calories > 0 |
 	 * @param calories , calories of donut
 	 * @param sprinkles , if donut has sprinkles
 	 * 
 	 */
+	
+	
 	public Donut(int calories, boolean sprinkles) {
+		if(calories < 0) {
+			throw new IllegalArgumentException("Can't be less than 0");
+		}
 		this.calories = calories;
 		this.sprinkles = sprinkles;
 	}
-	
-	
 	
 	
 	/**

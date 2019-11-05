@@ -24,6 +24,7 @@ public class Main {
 		Student otherStudent = new Student("Ant-Man", 98);
 		System.out.println("The two students are equal: " + student.equals(otherStudent));
 
+		// Thomas Whaley end
 	}
 
 }
