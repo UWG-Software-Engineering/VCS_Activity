@@ -4,7 +4,7 @@ import edu.westga.cs3211.vcs_activity.model.Student;
 
 /** Contains the entry point for the program.
  * 
- * @author Jonathan Corley, Andrew Stoddard
+ * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn
  * @version Fall 2019
  */
 public class Main {
