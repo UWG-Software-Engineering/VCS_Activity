@@ -1,13 +1,14 @@
 package edu.westga.cs3211.vcs_activity;
 
 import edu.westga.cs3211.vcs_activity.model.Book;
+import edu.westga.cs3211.vcs_activity.model.Car;
 import edu.westga.cs3211.vcs_activity.model.Donut;
 import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 import edu.westga.cs3211.vcs_activity.model.Student;
 
 /**
  * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley,
- *         Jake Pefinis, Josh Pefinis, Timothy Brooks
+ *         Jake Pefinis, Josh Pefinis, Timothy Brooks, Thomas Morgenstern
  * 
  * @version Fall 2019
  */
@@ -52,6 +53,10 @@ public class Main {
 		/**
 		 * Andrew Stoddard End
 		 */
+		
+		//Thomas Morgenstern start
+		Car car = new Car(30, "red");
+		//Thomas Morgenstern end
 	}
 
 }
