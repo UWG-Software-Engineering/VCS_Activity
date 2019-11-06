@@ -57,6 +57,10 @@ public class Main {
 		//Thomas Morgenstern start
 		Car car = new Car(30, "red");
 		//Thomas Morgenstern end
+		
+		//Michael Pavich equals()
+		Car otherCar = new Car(30, "red");
+		System.out.println("The two cars are equal: " + car.equals(otherCar));
 	}
 
 }
