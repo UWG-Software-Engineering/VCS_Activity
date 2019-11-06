@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import edu.westga.cs3211.vcs_activity.model.Car;
 
+/**
+ * @author Michael Pavich
+ */
 class TestEquals {
 
 	@Test

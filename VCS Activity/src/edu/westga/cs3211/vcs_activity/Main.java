@@ -8,7 +8,7 @@ import edu.westga.cs3211.vcs_activity.model.Student;
 
 /**
  * @author Jonathan Corley, Andrew Stoddard, Andrew Steinborn, Thomas Whaley,
- *         Jake Pefinis, Josh Pefinis, Timothy Brooks, Thomas Morgenstern
+ *         Jake Pefinis, Josh Pefinis, Timothy Brooks, Thomas Morgenstern, Michael Pavich
  * 
  * @version Fall 2019
  */
