@@ -43,6 +43,15 @@ public class Car {
 	}
 	
 	@Override
+	public boolean equals(Object car) {
+		if (((Car)car).getSpeed() == this.getSpeed() && ((Car)car).getColor().equals(this.getColor())) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	@Override
 	public String toString() {
 		return "A " + this.color + " car that goes " + this.speed + " mph."; 
 	}
