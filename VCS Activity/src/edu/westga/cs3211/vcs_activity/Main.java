@@ -40,6 +40,10 @@ public class Main {
 		// Josh Pefinis start
 		Book book2 = new Book("Other Title", 100);
 		System.out.println("These books are not equal" + book.equals(book2));
+		
+		// Andrew Young toString()
+		Ice_Cream ice_cream = new Ice_Cream("chocolate", true);
+		System.out.println(ice_cream);
 
 		/**
 		 * Andrew Stoddard Start
@@ -48,7 +52,6 @@ public class Main {
 		/**
 		 * Andrew Stoddard End
 		 */
-
 	}
 
 }
