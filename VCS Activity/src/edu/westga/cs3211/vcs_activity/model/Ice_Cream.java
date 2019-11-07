@@ -48,10 +48,8 @@ public class Ice_Cream {
 	}
 	
 	public boolean equals(Ice_Cream creamyGoodness) {
-		if (this.flavor.equals(creamyGoodness.getFlavor()) && this.hasNuts == creamyGoodness.isHasNuts()) {
-			return true;
-		}
-		return false;
+		return this.flavor.equals(creamyGoodness.getFlavor()) && this.hasNuts == creamyGoodness.isHasNuts();
+		
 	} 
 	
 	/**
