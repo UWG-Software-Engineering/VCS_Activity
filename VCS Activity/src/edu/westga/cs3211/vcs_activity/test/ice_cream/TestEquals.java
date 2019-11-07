@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import edu.westga.cs3211.vcs_activity.model.Ice_Cream;
 
 /**
- * @author Nlight160
+ * @author Nathaniel Ligthholder
  *
  */
 class TestEquals {

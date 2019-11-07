@@ -2,7 +2,13 @@ package edu.westga.cs3211.vcs_activity.model;
 
 
 
-
+/**
+ * 
+ * @author Member 1: Darrius 
+ * 		   Member 2: Nathaniel Lightholder
+ * 		   Member 3: ???
+ *
+ */
 public class Ice_Cream {
 
 	/** The flavor. */
