@@ -6,7 +6,7 @@ class DogConstructor {
 
 	@Test
 	void testAgeLessThanOne() {
-		assertThrows(IllegalArgumentException.class, () -> new Dog(0,"Sally"));
+		assertThrows(IllegalArgumentException.class, () -> new Dog("Sally",0.5));
 	}
 
 }
