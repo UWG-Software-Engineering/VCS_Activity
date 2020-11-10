@@ -1,4 +1,6 @@
 package model;
+<<<<<<< HEAD
+
 /**
  * The student Class
  * @author jechols5
@@ -6,7 +8,21 @@ package model;
  */
 public class Student {
 	private String name;
-	private double GPA;
+	private double gpa;
+	
+	public Student(String name, Double gpa) {
+		if(name == null) {
+			throw new IllegalArgumentException("Name cannot be null.");
+		}
+		if(name.isBlank() || name.isEmpty()) {
+			throw new IllegalArgumentException("Name cannot be blank or empty.");
+		}
+		if(gpa < 0) {
+			throw new IllegalArgumentException("GPA cannot be negative");
+		}
+		this.name = name;
+		this.gpa = gpa;
+	}
 	
 	/**
 	 * Gets the name of the student 
@@ -29,13 +45,14 @@ public class Student {
 	 * @return the GPA of the student
 	 */
 	public double getGPA() {
-		return this.GPA;
+		return this.gpa;
 	}
 	
 	/**
 	 * The string representation of a student
 	 */
 	public String toString() {
-		return this.name + " has a GPA of " + this.GPA;
+		return this.name + " has a GPA of " + this.gpa;
 	}
+>>>>>>> branch 'master' of https://github.com/UWG-Software-Engineering/VCS_Activity.git
 }
