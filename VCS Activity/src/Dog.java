@@ -1,4 +1,8 @@
-
+/** The entry point for the program
+ * 
+ * @author Jared Golden
+ * @version Fall 2020
+ */
 public class Dog {
 
 	private String name;
