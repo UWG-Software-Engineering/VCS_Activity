@@ -48,6 +48,11 @@ public class Student {
 		return this.gpa;
 	}
 	
+	@Override
+	public int compareTo(Student otherStudent) {
+		return this.gpa - otherStudent.gpa;
+	}
+	
 	/**
 	 * The string representation of a student
 	 */
