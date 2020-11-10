@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package model;
 
 public class Car {
@@ -58,9 +57,8 @@ public class Car {
 	public String getModel() {
 		return this.model;
 	}
-=======
-
-public class Car {
->>>>>>> branch 'master' of https://github.com/UWG-Software-Engineering/VCS_Activity.git
-
-}
+	
+	@Override
+	public String toString() {
+		return "Make: " + this.make + " Model: " + this.model;
+	}
