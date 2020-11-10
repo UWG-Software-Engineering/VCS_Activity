@@ -10,7 +10,7 @@ public class Dog {
 	
 	public Dog(String name, int age) {
 		if(age < 1) {
-			throw new IllegalArgumentException("Age cannot be null.");
+			throw new IllegalArgumentException("Age cannot be less than 1.");
 		}
 		if(name.isBlank() || name.isEmpty()) {
 			throw new IllegalArgumentException("Name cannot be blank or empty.");
