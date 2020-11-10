@@ -9,4 +9,10 @@ public class Boat {
 		this.brand = brand;
 		this.length = length;
 	}
+	
+	public boolean equals(Boat otherBoat) {
+		
+		return (this.brand == otherBoat.brand && this.length == otherBoat.length);
+		
+	}
 }
