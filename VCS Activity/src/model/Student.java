@@ -1,3 +1,5 @@
+package model;
+
 
 public class Student {
 	
@@ -15,7 +17,8 @@ public class Student {
 			throw new IllegalArgumentException("GPA cannot be negative");
 		}
 		this.name = name;
-		this.age = age;
+		this.gpa = gpa;
 	}
+	
 
 }
