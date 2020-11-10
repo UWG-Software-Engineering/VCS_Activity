@@ -1,11 +1,14 @@
 package model;
 <<<<<<< HEAD
 
-
+/**
+ * The student Class
+ * @author jechols5
+ *
+ */
 public class Student {
-	
 	private String name;
-	private Double gpa;
+	private double gpa;
 	
 	public Student(String name, Double gpa) {
 		if(name == null) {
@@ -20,17 +23,6 @@ public class Student {
 		this.name = name;
 		this.gpa = gpa;
 	}
-	
-
-=======
-/**
- * The student Class
- * @author jechols5
- *
- */
-public class Student {
-	private String name;
-	private double GPA;
 	
 	/**
 	 * Gets the name of the student 
@@ -53,14 +45,14 @@ public class Student {
 	 * @return the GPA of the student
 	 */
 	public double getGPA() {
-		return this.GPA;
+		return this.gpa;
 	}
 	
 	/**
 	 * The string representation of a student
 	 */
 	public String toString() {
-		return this.name + " has a GPA of " + this.GPA;
+		return this.name + " has a GPA of " + this.gpa;
 	}
 >>>>>>> branch 'master' of https://github.com/UWG-Software-Engineering/VCS_Activity.git
 }
