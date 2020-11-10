@@ -31,5 +31,31 @@ public class Car {
 		}
 		
 	}
+	
+	/**
+	 * The getter for the car make
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 * @return the car make
+	 */
+	
+	public String getMake() {
+		return this.make;
+	}
+	
+	/**
+	 * The getter for the car model
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 * @return the car model
+	 */
+	
+	public String getModel() {
+		return this.model;
+	}
 
 }
