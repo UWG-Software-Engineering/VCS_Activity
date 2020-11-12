@@ -1,4 +1,4 @@
-
+package model;
 public class School {
 	 
 	private String name;
@@ -6,7 +6,8 @@ public class School {
 	
 	/**
 	 * Initial new school
-	 * precondition name != null && 
+	 * precondition name != null && location != null
+	 * postcondition this.name ==  name && this loction == location
 	 * @param name The name of the school
 	 * @param location The location of the School
 	 */
@@ -34,6 +35,16 @@ public class School {
 	 */
 	public void getLocation() {
 		return this.location;
+	}
+	
+	/**
+	 * Checks if two School objects are equal
+	 * 
+	 * @param otherSchool
+	 * @return return true if getName() == otherSchool.getName() && getLocation() == otherSchool.getLocation()
+	 */
+	public boolean equals(School otherSchool) {
+		return (this.name == otherBoat.name && this.location == otherBoat.location);
 	}
 	
 
