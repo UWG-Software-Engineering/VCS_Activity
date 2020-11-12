@@ -6,8 +6,9 @@ public class TestDeskConstructor {
 
 	@Test
 	public void testNullWoodType() {
-		Desk desk = new Desk(null, 5);
-		
+		Assertions.assertThrows(IllegalArgumentException.class, () -> {
+			Desk desk = new Desk(null, 5);
+		})
 	}
 
 }
