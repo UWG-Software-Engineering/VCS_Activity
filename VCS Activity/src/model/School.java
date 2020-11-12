@@ -36,5 +36,15 @@ public class School {
 		return this.location;
 	}
 	
+	/**
+	 * Checks if two School objects are equal
+	 * 
+	 * @param otherSchool
+	 * @return return true if getName() == otherSchool.getName() && getLocation() == otherSchool.getLocation()
+	 */
+	public boolean equals(School otherSchool) {
+		return (this.name == otherBoat.name && this.location == otherBoat.location);
+	}
+	
 
 }
