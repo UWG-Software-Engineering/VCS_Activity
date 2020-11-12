@@ -45,4 +45,20 @@ public class Book {
 	public String getAuthor() {
 		return this.author;
 	}
+	/**
+	 * Checks the equality of a book object
+	 * @param obj an object.
+	 * @return a boolean indiciation if the object is equal to this instance
+	 */
+	@override
+	public boolean equals(Object obj) {
+		if (obj instanceof Book) {
+			Book book = (Book)obj;
+			boolean isTitleEqual = this.title.equals(book.title);
+			boolean isAuthorEqual = this.title.equals(book.author);
+			boolean areTheyBothEqual = isTitleEqual && isAuthorEqual;
+			return areTheyBothEqual;
+		}
+		return false;
+	}
 }
