@@ -13,7 +13,7 @@ public class Main {
 	 * @param args we are not using these.
 	 */
 	public static void main(String[] args) {
-		
+		Book book = new Book("The Title","The Author");
 	}
 
 }
