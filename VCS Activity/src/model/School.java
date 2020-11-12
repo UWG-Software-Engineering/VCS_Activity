@@ -1,4 +1,4 @@
-
+package model;
 public class School {
 	 
 	private String name;
@@ -6,7 +6,8 @@ public class School {
 	
 	/**
 	 * Initial new school
-	 * precondition name != null && 
+	 * precondition name != null && location != null
+	 * postcondition this.name ==  name && this loction == location
 	 * @param name The name of the school
 	 * @param location The location of the School
 	 */
