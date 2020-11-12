@@ -1,4 +1,8 @@
-package model;
+/**
+ * Represents the School class
+ * @author JinxiangZen, Kenneth Mitchell
+ *
+ */
 public class School {
 	 
 	private String name;
