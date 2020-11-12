@@ -14,6 +14,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		Book book = new Book("The Title","The Author");
+		Desk desk = new Desk("Oak", 2);
 	}
 
 }
