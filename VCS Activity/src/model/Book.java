@@ -1,8 +1,17 @@
-
+/**
+ * Represents the Book class
+ * @author Anna McSwain, Amelia Reynolds, and Cody Vollrath
+ *
+ */
 public class Book {
 	private String title;
 	private String author;
 	
+	/**
+	 * Creates a book object
+	 * @param title the title of the book
+	 * @param author the author of the book
+	 */
 	public Book(String title, String author) {
 		if(title == null)
 		{
@@ -19,5 +28,21 @@ public class Book {
 		}
 		this.title = title;
 		this.author = author;
+	}
+	
+	/**
+	 * Gets the title of the book
+	 * @return the book title
+	 */
+	public String getTitle() {
+		return this.title;
+	}
+	
+	/**
+	 * Gets the author of the book
+	 * @return the author of the book
+	 */
+	public String getAuthor() {
+		return this.author;
 	}
 }
