@@ -1,12 +1,14 @@
 import static org.junit.jupiter.api.Assertions.*;
-
+import model.Book;
 import org.junit.jupiter.api.Test;
 
-class BookConstructor {
+public class BookConstructor {
 
 	@Test
 	void testValidInputs() {
-		
+		Book book = new Book("Title", "Author");
+		assertEquals("Title", book.getTitle());
+		assertEquals("Author", book.getAuthor());
 	}
 	
 	@Test 
