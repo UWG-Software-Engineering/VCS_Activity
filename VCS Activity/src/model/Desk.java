@@ -1,6 +1,7 @@
 /**
  * Defines a desk object
- * @author Austin Snyder, 
+ * @author Austin Snyder,
+ * @author David Walker,
  *
  */
 public class Desk {
@@ -17,5 +18,10 @@ public class Desk {
 		}
 		this.woodType = woodType;
 		this.numberOfDrawers = numberOfDrawers;
+	}
+	
+	@Override
+	public String toString() {
+		return "Wood Type: " + this.woodType + " with " + this.numberOfDrawers + " drawers";
 	}
 }
