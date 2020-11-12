@@ -12,7 +12,7 @@ public class Desk {
 		if (woodType == null) {
 			throw new IllegalArgumentException("Wood type must not be null");
 		}
-		if (numberOfDrawers <= 0) {
+		if (numberOfDrawers < 0) {
 			throw new IllegalArgumentException("Number of drawers must be greater than or equal to 0");
 		}
 		this.woodType = woodType;
