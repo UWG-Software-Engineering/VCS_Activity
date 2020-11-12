@@ -9,6 +9,15 @@ public class Desk {
 	private String woodType;
 	private int numberOfDrawers;
 	
+	/**
+	 * Creates a desk object
+	 * @param woodType - the type of wood used to build the desk
+	 * @param numberOfDrawers - the number of drawers in the desk
+	 * @precondition - woodType != null
+	 * 				   numberOfDrawers > 0
+	 * @postcondition - new Desk object is created
+	 * @return none
+	 */
 	public Desk(String woodType, int numberOfDrawers) {
 		if (woodType == null) {
 			throw new IllegalArgumentException("Wood type must not be null");
